@@ -6,6 +6,15 @@ The following dependencies are needed to run the LegoStacks processing sketch.
 * Install the Fullscreen API for Processing: http://www.superduper.org/processing/fullscreen_api/
 * Install the ControlP5 library: http://www.sojamo.de/libraries/controlP5/#installation
 
+# Physical setup
+Open LegoStacks.pde with processing and run the application. The first time the main menu only contains the "Calibrate" option. 
+
+To calibrate a stack, stack the lego pieces in the right order in front of the webcam and click on them from bottom to top after choosing "Calibrate" from the main menu. The pieces will be highlighted on the screen as they are recognized by the program. 
+
+# How to play
+
+Enter your user data and click "Play Now". The timer starts automatically and stops when the correct order for the lego pieces is detected.
+
 # Tips
 
 The recognition of Lego bricks is based on areas of homogenous color. 
